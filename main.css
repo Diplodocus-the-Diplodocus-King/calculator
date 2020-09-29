@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+button{
+    position: relative;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    margin: 5px;
+}
+
+div{
+    position: relative;
+    padding: 0 !important;
+}
+
+.container{
+    width: 25%;
+}
+
+.window{
+    margin: 20px;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.zero{
+    position: relative;
+    width: 75%;
+    border-radius: 30px;
+}
+
+.equation{
+    height: 30px;
+    margin: 0 5px;
+}
+
+.answer{
+    text-align: center;
+    height: 30px;
+}
+

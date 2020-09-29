@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/22ad983047.js" crossorigin="anonymous"></script>
+    <!-- iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./main.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="row container">
+        <h1>Calculator</h1>
+        <div class="window col s12 m12 l12">
+            <p class="equation truncate"></p>
+            <p class="answer flow-text"></p>
+        </div>
+        <div class="button-container col s12 m12 l12">
+            <div class="col s3 m3 l3 center-align"><button class="clear btn-floating btn-large waves-effect waves-light red darken-1">AC</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="sign-change btn-floating btn-large waves-effect waves-light amber darken-3">+/-</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="percent btn-floating btn-large waves-effect waves-light amber darken-3"><i class="fas fa-percent"></i></button></div>
+            <div class="col s3 m3 l3 center-align"><button class="divide operators btn-floating btn-large waves-effect waves-light amber darken-3"><i class="fas fa-divide"></i></button></div>
+            <div class="col s3 m3 l3 center-align"><button class="seven number btn-floating btn-large waves-effect waves-light grey darken-3">7</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="eight number btn-floating btn-large waves-effect waves-light grey darken-3">8</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="nine number btn-floating btn-large waves-effect waves-light grey darken-3">9</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="multiply operators btn-floating btn-large waves-effect waves-light amber darken-3"><i class="fas fa-times"></i></button></div>
+            <div class="col s3 m3 l3 center-align"><button class="four number btn-floating btn-large waves-effect waves-light grey darken-3">4</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="five number btn-floating btn-large waves-effect waves-light grey darken-3">5</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="six number btn-floating btn-large waves-effect waves-light grey darken-3">6</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="minus operators btn-floating btn-large waves-effect waves-light amber darken-3"><i class="fas fa-minus"></i></button></div>
+            <div class="col s3 m3 l3 center-align"><button class="one number btn-floating btn-large waves-effect waves-light grey darken-3">1</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="two number btn-floating btn-large waves-effect waves-light grey darken-3">2</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="three number btn-floating btn-large waves-effect waves-light grey darken-3">3</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="plus operators btn-floating btn-large waves-effect waves-light amber darken-3"><i class="fas fa-plus"></i></button></div>
+            <div class="col s6 m6 l6 center-align"><button class="zero number btn-large waves-effect waves-light grey darken-3">0</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="decimal btn-floating btn-large waves-effect waves-light grey darken-3">.</button></div>
+            <div class="col s3 m3 l3 center-align"><button class="equals btn-floating btn-large waves-effect waves-light green darken-1"><i class="fas fa-equals"></i></button></div>
+        </div>
+    </main>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <!-- custom script -->
+    <script src="./index.js"></script>
+</body>
+</html>
